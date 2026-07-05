@@ -85,35 +85,11 @@ body::before {
   padding: 70px 20px 40px;
 }
 
-.studio-title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(4rem, 12vw, 10rem);
-  text-transform: uppercase;
-  letter-spacing: 0.10em;
-  margin: 0 0 34px;
-  line-height: 0.95;
-  text-align: center;
-
-  background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    #dbe3ff 25%,
-    #7f8cff 52%,
-    #3f4bb8 72%,
-    #ffffff 100%
-  );
-
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.35);
-
-  text-shadow:
-    0 0 10px rgba(220, 230, 255, 0.75),
-    0 0 25px rgba(100, 120, 255, 0.55),
-    0 0 55px rgba(70, 80, 190, 0.45),
-    0 0 95px rgba(40, 50, 150, 0.35);
+.logo {
+  max-width: 900px;
+  width: 94%;
+  height: auto;
+  margin-bottom: 28px;
 }
 
 .tagline {
@@ -251,9 +227,9 @@ body::before {
     gap: 16px;
   }
 
-  .studio-title {
-    font-size: clamp(3rem, 14vw, 5rem);
-    letter-spacing: 0.06em;
+  .logo {
+    max-width: 520px;
+    width: 95%;
   }
 
   .hero {
