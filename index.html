@@ -8,40 +8,77 @@
   <link rel="icon" type="image/png" href="assets/faeden-logo.png" />
 </head>
 <body>
-  <main class="page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="brand">Faeden Studios</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
     <section class="hero">
-      <img src="assets/faeden-logo.png" alt="Faeden Studios logo" class="logo" />
-
+      <h1 class="studio-title">Faeden Studios</h1>
       <p class="tagline">Independent game studio developing atmospheric science fiction experiences.</p>
-
       <a href="mailto:faedenstudios@gmail.com" class="button">Contact Us</a>
     </section>
 
-    <section class="art-section">
+    <section class="feature-art">
       <img src="assets/astronaut-pointing.png" alt="Futuristic astronaut pointing toward another planet" class="hero-art" />
     </section>
 
-    <section class="content">
-      <h2>About</h2>
-      <p>
+    <section id="about" class="section">
+      <p class="section-label">About</p>
+      <h2>Building dark, cinematic science fiction experiences.</h2>
+      <p class="section-text">
         Faeden Studios is an independent game studio focused on atmospheric storytelling,
         science fiction, mystery, and immersive player-driven experiences.
       </p>
 
-      <h2>Current Project</h2>
-      <p>
-        Our first project is in early development. The game is being built around a dark
-        science fiction setting, cinematic worldbuilding, and choices that shape the player’s journey.
-      </p>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Atmosphere</h3>
+          <p>Worlds built around tone, tension, discovery, and cinematic presentation.</p>
+        </div>
 
-      <h2>Development Approach</h2>
-      <p>
-        Faeden Studios is starting small and building carefully. Our focus is on creating a strong
-        foundation, developing original ideas, and growing the studio one step at a time.
-      </p>
+        <div class="card">
+          <h3>Story</h3>
+          <p>Character-focused science fiction with mystery, consequence, and emotional weight.</p>
+        </div>
 
-      <h2>Contact</h2>
-      <p>
+        <div class="card">
+          <h3>Player Choice</h3>
+          <p>Experiences shaped by decisions, exploration, and the path each player takes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="section project-panel">
+      <p class="section-label">Current Project</p>
+      <h2>First title in early development.</h2>
+      <p class="section-text">
+        Our first project is being built around a dark science fiction setting, cinematic
+        worldbuilding, and choices that shape the player’s journey. More information will be
+        shared as development continues.
+      </p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Development Approach</p>
+      <h2>Starting small. Building carefully.</h2>
+      <p class="section-text">
+        Faeden Studios is focused on creating a strong foundation, developing original ideas,
+        and growing one step at a time.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact-panel">
+      <p class="section-label">Contact</p>
+      <h2>Connect with Faeden Studios.</h2>
+      <p class="section-text">
         For questions, collaboration, or general contact, email:
         <a href="mailto:faedenstudios@gmail.com">faedenstudios@gmail.com</a>
       </p>
@@ -51,5 +88,9 @@
       </p>
     </section>
   </main>
+
+  <footer class="footer">
+    <p>© 2026 Faeden Studios. All rights reserved.</p>
+  </footer>
 </body>
 </html>
